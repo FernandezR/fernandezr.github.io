@@ -6,6 +6,13 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript">
+        var pcs = document.lastModified.split(" ")[0].split("/");
+        var date = pcs[2] + '/' + pcs[0] + '/' + pcs[1];
+        onload = function(){
+            document.getElementById("lastModified").innerHTML = "Last Updated: " + date;
+        }
+        </script>
     </head>
     <body>
         <h1 class="name animated bounceInDown">Rolando Fernandez</h1>
@@ -53,7 +60,7 @@
         </div>
         <br>
         <div class="footer">
-            <p>Last Updated: 2015/8/13</p>
+            <span id="lastModified"></span>
             <!--TODO: Auto updating last modified date-->
             <!--<p id="lastModified">Last Updated: </p>-->
         </div>
