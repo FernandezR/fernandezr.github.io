@@ -1,0 +1,53 @@
+# Must be manually configured using
+# git config --global core.excludesfile ~/.gitignore
+
+#Vim temp files
+*.swp
+*.swo
+
+#TeXWorks temp files
+*.log
+*.synctex.gz
+*.aux
+
+#Python compiled files
+*.pyc
+
+#Compiled source
+*.com
+*.class
+*.o
+*.so
+
+#OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#build files
+experiment/build/*
+grid/build/*
+agent/build/*
+
+#Temp Files
+*~
+
+#Netbeans Files
+*.xml
+*.mf
+/nbproject/*
+
+#Y86 Files
+*.yo
+
+# Eclipse Files
+build/*
+WebContent/*
+src/*
+.settings
+.classpath
+.project
