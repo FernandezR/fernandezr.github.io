@@ -1,7 +1,7 @@
 fernandezr.github.io
 =========
 
-Source code for my personal website which lives at [fernandezr.github.io](fernandezr.github.io) and [cs.utexas.edu/~rf22784](http://cs.utexas.edu/~rf22784)
+Source code for my personal website which lives at [fernandezr.github.io](https://fernandezr.github.io) # and [cs.utexas.edu/~rf22784](http://cs.utexas.edu/~rf22784)
 
 This website was made with the ideal of "simplicity is elegance", in the sense that it provides only the important information and nothing else. 
 
